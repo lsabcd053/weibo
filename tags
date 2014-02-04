@@ -1,0 +1,229 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CANVAS_PAGE	config.php	/^define( "CANVAS_PAGE" , "http:\/\/apps.weibo.com\/lsabcdiie" );$/;"	d
+MPboundary	saetv2.ex.class.php	/^		$MPboundary = '--'.$boundary;$/;"	v
+OAuthException	saetv2.ex.class.php	/^class OAuthException extends Exception {$/;"	c
+SaeTClientV2	saetv2.ex.class.php	/^class SaeTClientV2$/;"	c
+SaeTOAuthV2	saetv2.ex.class.php	/^class SaeTOAuthV2 {$/;"	c
+WB_AKEY	config.php	/^define( "WB_AKEY" , '3880719658' );$/;"	d
+WB_SKEY	config.php	/^define( "WB_SKEY" , '539421c8b2bec2ecf86c2a811b0d9ffd' );$/;"	d
+__construct	saetv2.ex.class.php	/^	function __construct( $akey, $skey, $access_token, $refresh_token = NULL)$/;"	f
+__construct	saetv2.ex.class.php	/^	function __construct($client_id, $client_secret, $access_token = NULL, $refresh_token = NULL) {$/;"	f
+accessTokenURL	saetv2.ex.class.php	/^	function accessTokenURL()  { return 'https:\/\/api.weibo.com\/oauth2\/access_token'; }$/;"	f
+access_token	saetv2.ex.class.php	/^				$this->access_token = $token['access_token'];$/;"	v
+access_token	saetv2.ex.class.php	/^			$this->access_token = $token['access_token'] = $arr['access_token'];$/;"	v
+access_token	saetv2.ex.class.php	/^			$this->access_token = $token['access_token'];$/;"	v
+access_token	saetv2.ex.class.php	/^		$this->access_token = $access_token;$/;"	v
+access_token	saetv2.ex.class.php	/^	public $access_token;$/;"	v
+account_career	saetv2.ex.class.php	/^	function account_career( $uid = NULL )$/;"	f
+account_career_batch	saetv2.ex.class.php	/^	function account_career_batch( $uids )$/;"	f
+account_education	saetv2.ex.class.php	/^	function account_education( $uid = NULL )$/;"	f
+account_education_batch	saetv2.ex.class.php	/^	function account_education_batch( $uids  )$/;"	f
+account_profile_basic	saetv2.ex.class.php	/^	function account_profile_basic( $uid = NULL  )$/;"	f
+add_tags	saetv2.ex.class.php	/^	function add_tags( $tags )$/;"	f
+add_to_favorites	saetv2.ex.class.php	/^	function add_to_favorites( $sid )$/;"	f
+array	saetv2.ex.class.php	/^				$array = explode( '?', basename( $url ) );$/;"	v
+authLoad	auth.php	/^function authLoad(){$/;"	f
+authorizeURL	saetv2.ex.class.php	/^	function authorizeURL()    { return 'https:\/\/api.weibo.com\/oauth2\/authorize'; }$/;"	f
+base64decode	saetv2.ex.class.php	/^	function base64decode($str) {$/;"	f
+bilateral	saetv2.ex.class.php	/^	function bilateral( $uid, $page = 1, $count = 50, $sort = 0 )$/;"	f
+bilateral_ids	saetv2.ex.class.php	/^	function bilateral_ids( $uid, $page = 1, $count = 50, $sort = 0)$/;"	f
+body	saetv2.ex.class.php	/^				$body = http_build_query($parameters);$/;"	v
+body	saetv2.ex.class.php	/^				$body = self::build_http_query_multi($parameters);$/;"	v
+boundary	saetv2.ex.class.php	/^	public static $boundary = '';$/;"	v
+build_http_query_multi	saetv2.ex.class.php	/^	public static function build_http_query_multi($params) {$/;"	f
+c	index.php	/^		$c = new SaeTClientV2( WB_AKEY , WB_SKEY ,$_SESSION['oauth2']['oauth_token'] ,'' );$/;"	v
+car_destroy	saetv2.ex.class.php	/^	function car_destroy( $id )$/;"	f
+car_update	saetv2.ex.class.php	/^	function car_update( $car_update )$/;"	f
+ci	saetv2.ex.class.php	/^		$ci = curl_init();$/;"	v
+client_id	saetv2.ex.class.php	/^		$this->client_id = $client_id;$/;"	v
+client_id	saetv2.ex.class.php	/^	public $client_id;$/;"	v
+client_secret	saetv2.ex.class.php	/^		$this->client_secret = $client_secret;$/;"	v
+client_secret	saetv2.ex.class.php	/^	public $client_secret;$/;"	v
+comment_destroy	saetv2.ex.class.php	/^	function comment_destroy( $cid )$/;"	f
+comment_destroy_batch	saetv2.ex.class.php	/^	function comment_destroy_batch( $ids )$/;"	f
+comments_by_me	saetv2.ex.class.php	/^	function comments_by_me( $page = 1 , $count = 50, $since_id = 0, $max_id = 0,  $filter_by_source = 0 )$/;"	f
+comments_daily	saetv2.ex.class.php	/^	function comments_daily( $count = 20,  $base_app = 0)$/;"	f
+comments_mentions	saetv2.ex.class.php	/^	function comments_mentions( $page = 1, $count = 50, $since_id = 0, $max_id = 0, $filter_by_author = 0, $filter_by_source = 0)$/;"	f
+comments_show_batch	saetv2.ex.class.php	/^	function comments_show_batch( $cids )$/;"	f
+comments_timeline	saetv2.ex.class.php	/^	function comments_timeline( $page = 1, $count = 50, $since_id = 0, $max_id = 0 )$/;"	f
+comments_to_me	saetv2.ex.class.php	/^	function comments_to_me( $page = 1 , $count = 50, $since_id = 0, $max_id = 0, $filter_by_author = 0, $filter_by_source = 0)$/;"	f
+comments_weekly	saetv2.ex.class.php	/^	function comments_weekly( $count = 20, $base_app = 0)$/;"	f
+connecttimeout	saetv2.ex.class.php	/^	public $connecttimeout = 30;$/;"	v
+content	saetv2.ex.class.php	/^				$content = file_get_contents( $url );$/;"	v
+daily_trends	saetv2.ex.class.php	/^	function daily_trends( $base_app = 0 )$/;"	f
+data	index.php	/^	$data=$o->parseSignedRequest($_REQUEST["signed_request"]);$/;"	v
+data	saetv2.ex.class.php	/^		$data = json_decode(self::base64decode($payload), true);$/;"	v
+debug	saetv2.ex.class.php	/^	public $debug = FALSE;$/;"	v
+decode_json	saetv2.ex.class.php	/^	public $decode_json = TRUE;$/;"	v
+delete	saetv2.ex.class.php	/^	function delete( $id )$/;"	f
+delete	saetv2.ex.class.php	/^	function delete($url, $parameters = array()) {$/;"	f
+delete_dm	saetv2.ex.class.php	/^	function delete_dm( $did )$/;"	f
+delete_dms	saetv2.ex.class.php	/^	function delete_dms( $dids )$/;"	f
+delete_tag	saetv2.ex.class.php	/^	function delete_tag( $tag_id )$/;"	f
+delete_tags	saetv2.ex.class.php	/^	function delete_tags( $ids )$/;"	f
+destroy	saetv2.ex.class.php	/^	function destroy( $id )$/;"	f
+dm_conversation	saetv2.ex.class.php	/^	function dm_conversation( $uid, $page = 1, $count = 50, $since_id = 0, $max_id = 0)$/;"	f
+dm_show_batch	saetv2.ex.class.php	/^	function dm_show_batch( $dmids )$/;"	f
+dm_user_list	saetv2.ex.class.php	/^	function dm_user_list( $count = 20, $cursor = 0)$/;"	f
+domain_show	saetv2.ex.class.php	/^	function domain_show( $domain )$/;"	f
+edu_destroy	saetv2.ex.class.php	/^	function edu_destroy( $id )$/;"	f
+edu_update	saetv2.ex.class.php	/^	function edu_update( $edu_update )$/;"	f
+emotions	saetv2.ex.class.php	/^	function emotions( $type = "face", $language = "cnname" )$/;"	f
+endMPboundary	saetv2.ex.class.php	/^		$endMPboundary = $MPboundary. '--';$/;"	v
+expected_sig	saetv2.ex.class.php	/^		$expected_sig = hash_hmac('sha256', $payload, $this->client_secret, true);$/;"	v
+favorites_by_tags	saetv2.ex.class.php	/^	function favorites_by_tags( $tid, $page = 1, $count = 50)$/;"	f
+favorites_show	saetv2.ex.class.php	/^	function favorites_show( $id )$/;"	f
+favorites_tags	saetv2.ex.class.php	/^	function favorites_tags( $page = 1, $count = 50)$/;"	f
+favorites_tags_destroy_batch	saetv2.ex.class.php	/^	function favorites_tags_destroy_batch( $tid )$/;"	f
+favorites_tags_update	saetv2.ex.class.php	/^	function favorites_tags_update( $id,  $tags )$/;"	f
+favorites_update_batch	saetv2.ex.class.php	/^	function favorites_update_batch( $tid, $tag )$/;"	f
+filename	saetv2.ex.class.php	/^				$filename = $array[0];$/;"	v
+follow_by_id	saetv2.ex.class.php	/^	function follow_by_id( $uid )$/;"	f
+follow_by_name	saetv2.ex.class.php	/^	function follow_by_name( $screen_name )$/;"	f
+follow_create_batch	saetv2.ex.class.php	/^	function follow_create_batch( $uids )$/;"	f
+follow_trends	saetv2.ex.class.php	/^	function follow_trends( $trend_name )$/;"	f
+followers_active	saetv2.ex.class.php	/^	function followers_active( $uid,  $count = 20)$/;"	f
+followers_by_id	saetv2.ex.class.php	/^	function followers_by_id( $uid , $cursor = 0 , $count = 50)$/;"	f
+followers_by_name	saetv2.ex.class.php	/^	function followers_by_name( $screen_name, $cursor = 0 , $count = 50 )$/;"	f
+followers_ids_by_id	saetv2.ex.class.php	/^	function followers_ids_by_id( $uid, $cursor = 0 , $count = 50 )$/;"	f
+followers_ids_by_name	saetv2.ex.class.php	/^	function followers_ids_by_name( $screen_name, $cursor = 0 , $count = 50 )$/;"	f
+format	saetv2.ex.class.php	/^	public $format = 'json';$/;"	v
+friends_by_id	saetv2.ex.class.php	/^	function friends_by_id( $uid, $cursor = 0, $count = 50 )$/;"	f
+friends_by_name	saetv2.ex.class.php	/^	function friends_by_name( $screen_name, $cursor = 0, $count = 50 )$/;"	f
+friends_chain_followers	saetv2.ex.class.php	/^	function friends_chain_followers( $uid, $page = 1, $count = 50 )$/;"	f
+friends_ids_by_id	saetv2.ex.class.php	/^	function friends_ids_by_id( $uid, $cursor = 0, $count = 500 )$/;"	f
+friends_ids_by_name	saetv2.ex.class.php	/^	function friends_ids_by_name( $screen_name, $cursor = 0, $count = 500 )$/;"	f
+friends_in_common	saetv2.ex.class.php	/^	function friends_in_common( $uid, $suid = NULL, $page = 1, $count = 50 )$/;"	f
+friends_remark_batch	saetv2.ex.class.php	/^	function friends_remark_batch( $uids )$/;"	f
+friends_timeline	saetv2.ex.class.php	/^	function friends_timeline( $page = 1, $count = 50, $since_id = 0, $max_id = 0, $base_app = 0, $feature = 0 )$/;"	f
+get	saetv2.ex.class.php	/^	function get($url, $parameters = array()) {$/;"	f
+getAccessToken	saetv2.ex.class.php	/^	function getAccessToken( $type = 'code', $keys ) {$/;"	f
+getAuthorizeURL	saetv2.ex.class.php	/^	function getAuthorizeURL( $url, $response_type = 'code', $state = NULL, $display = NULL ) {$/;"	f
+getHeader	saetv2.ex.class.php	/^	function getHeader($ch, $header) {$/;"	f
+getTokenFromArray	saetv2.ex.class.php	/^	function getTokenFromArray( $arr ) {$/;"	f
+getTokenFromJSSDK	saetv2.ex.class.php	/^	function getTokenFromJSSDK() {$/;"	f
+get_comments_by_sid	saetv2.ex.class.php	/^	function get_comments_by_sid( $sid, $page = 1, $count = 50, $since_id = 0, $max_id = 0, $filter_by_author = 0 )$/;"	f
+get_favorites	saetv2.ex.class.php	/^	function get_favorites( $page = 1, $count = 50 )$/;"	f
+get_privacy	saetv2.ex.class.php	/^	function get_privacy()$/;"	f
+get_suggest_tags	saetv2.ex.class.php	/^	function get_suggest_tags( $count = 10)$/;"	f
+get_tags	saetv2.ex.class.php	/^	function get_tags( $uid = NULL, $page = 1, $count = 20 )$/;"	f
+get_tags_batch	saetv2.ex.class.php	/^	function get_tags_batch( $uids )$/;"	f
+get_trends	saetv2.ex.class.php	/^	function get_trends( $uid = NULL, $page = 1, $count = 10 )$/;"	f
+get_uid	saetv2.ex.class.php	/^	function get_uid()$/;"	f
+headers	saetv2.ex.class.php	/^			$headers = array();$/;"	v
+home_timeline	saetv2.ex.class.php	/^	function home_timeline( $page = 1, $count = 50, $since_id = 0, $max_id = 0, $base_app = 0, $feature = 0 )$/;"	f
+host	saetv2.ex.class.php	/^	public $host = "https:\/\/api.weibo.com\/2\/";$/;"	v
+hot_favorites	saetv2.ex.class.php	/^	function hot_favorites( $page = 1, $count = 20 )$/;"	f
+hot_users	saetv2.ex.class.php	/^	function hot_users( $category = "default" )$/;"	f
+hourly_trends	saetv2.ex.class.php	/^	function hourly_trends( $base_app = 0 )$/;"	f
+http	saetv2.ex.class.php	/^	function http($url, $method, $postfields = NULL, $headers = array()) {$/;"	f
+http_code	saetv2.ex.class.php	/^		$this->http_code = curl_getinfo($ci, CURLINFO_HTTP_CODE);$/;"	v
+http_code	saetv2.ex.class.php	/^	public $http_code;$/;"	v
+http_info	saetv2.ex.class.php	/^		$this->http_info = array();$/;"	v
+http_info	saetv2.ex.class.php	/^		$this->http_info = array_merge($this->http_info, curl_getinfo($ci));$/;"	v
+http_info	saetv2.ex.class.php	/^	public $http_info;$/;"	v
+i	saetv2.ex.class.php	/^		$i = strpos($header, ':');$/;"	v
+id	saetv2.ex.class.php	/^			$id = number_format($id, 0, '', '');$/;"	v
+id	saetv2.ex.class.php	/^			$id = trim($id);$/;"	v
+id_format	saetv2.ex.class.php	/^	protected function id_format(&$id) {$/;"	f
+is_followed_by_id	saetv2.ex.class.php	/^	function is_followed_by_id( $target_id, $source_id = NULL )$/;"	f
+is_followed_by_name	saetv2.ex.class.php	/^	function is_followed_by_name( $target_name, $source_name = NULL )$/;"	f
+key	saetv2.ex.class.php	/^			$key = str_replace('-', '_', strtolower(substr($header, 0, $i)));$/;"	v
+key	saetv2.ex.class.php	/^		$key = "weibojs_" . $this->client_id;$/;"	v
+list_dm	saetv2.ex.class.php	/^	function list_dm( $page = 1, $count = 50, $since_id = 0, $max_id = 0 )$/;"	f
+list_dm_sent	saetv2.ex.class.php	/^	function list_dm_sent( $page = 1, $count = 50, $since_id = 0, $max_id = 0 )$/;"	f
+mentions	saetv2.ex.class.php	/^	function mentions( $page = 1, $count = 50, $since_id = 0, $max_id = 0, $filter_by_author = 0, $filter_by_source = 0, $filter_by_type = 0 )$/;"	f
+ms	index.php	/^$ms  = $c->home_timeline(); \/\/ done$/;"	v
+multipartbody	saetv2.ex.class.php	/^		$multipartbody = '';$/;"	v
+o	index.php	/^	$o = new SaeTOAuthV2( WB_AKEY , WB_SKEY  );$/;"	v
+oAuthRequest	saetv2.ex.class.php	/^	function oAuthRequest($url, $method, $parameters, $multi = false) {$/;"	f
+oauth	saetv2.ex.class.php	/^		$this->oauth = new SaeTOAuthV2( $akey, $skey, $access_token, $refresh_token );$/;"	v
+pairs	saetv2.ex.class.php	/^		$pairs = array();$/;"	v
+param	saetv2.ex.class.php	/^		$param = array();$/;"	v
+params	saetv2.ex.class.php	/^		$params =  array();$/;"	v
+params	saetv2.ex.class.php	/^		$params = $query;$/;"	v
+params	saetv2.ex.class.php	/^		$params = array();$/;"	v
+params	saetv2.ex.class.php	/^		$params=array();$/;"	v
+parseSignedRequest	saetv2.ex.class.php	/^	function parseSignedRequest($signed_request) {$/;"	f
+post	saetv2.ex.class.php	/^	function post($url, $parameters = array(), $multi = false) {$/;"	f
+postdata	saetv2.ex.class.php	/^					$this->postdata = $postfields;$/;"	v
+public_timeline	saetv2.ex.class.php	/^	function public_timeline( $page = 1, $count = 50, $base_app = 0 )$/;"	f
+put_users_not_interested	saetv2.ex.class.php	/^	function put_users_not_interested( $uid )$/;"	f
+queryid	saetv2.ex.class.php	/^	function queryid( $mid, $type = 1, $is_batch = 0, $inbox = 0, $isBase62 = 0)$/;"	f
+querymid	saetv2.ex.class.php	/^	function querymid( $id, $type = 1, $is_batch = 0 )$/;"	f
+rate_limit_status	saetv2.ex.class.php	/^	function rate_limit_status()$/;"	f
+refresh_token	saetv2.ex.class.php	/^				$this->refresh_token = $token['refresh_token'] = $arr['refresh_token'];$/;"	v
+refresh_token	saetv2.ex.class.php	/^				$this->refresh_token = $token['refresh_token'];$/;"	v
+refresh_token	saetv2.ex.class.php	/^			$this->refresh_token = $token['refresh_token'];$/;"	v
+refresh_token	saetv2.ex.class.php	/^		$this->refresh_token = $refresh_token;$/;"	v
+refresh_token	saetv2.ex.class.php	/^	public $refresh_token;$/;"	v
+remove_from_favorites	saetv2.ex.class.php	/^	function remove_from_favorites( $id )$/;"	f
+remove_from_favorites_batch	saetv2.ex.class.php	/^	function remove_from_favorites_batch( $fids )$/;"	f
+reply	saetv2.ex.class.php	/^	function reply( $sid, $text, $cid, $without_mention = 0, $comment_ori = 0 )$/;"	f
+repost	saetv2.ex.class.php	/^	function repost( $sid, $text = NULL, $is_comment = 0 )$/;"	f
+repost_by_me	saetv2.ex.class.php	/^	function repost_by_me( $page = 1, $count = 50, $since_id = 0, $max_id = 0 )$/;"	f
+repost_daily	saetv2.ex.class.php	/^	function repost_daily( $count = 20, $base_app = 0)$/;"	f
+repost_timeline	saetv2.ex.class.php	/^	function repost_timeline( $sid, $page = 1, $count = 50, $since_id = 0, $max_id = 0, $filter_by_author = 0 )$/;"	f
+repost_weekly	saetv2.ex.class.php	/^	function repost_weekly( $count = 20,  $base_app = 0)$/;"	f
+request_with_pager	saetv2.ex.class.php	/^	protected function request_with_pager( $url, $page = false, $count = false, $params = array() )$/;"	f
+request_with_uid	saetv2.ex.class.php	/^	protected function request_with_uid( $url, $uid_or_name, $page = false, $count = false, $cursor = false, $post = false, $params = array())$/;"	f
+response	saetv2.ex.class.php	/^		$response = $this->oAuthRequest($this->accessTokenURL(), 'POST', $params);$/;"	v
+response	saetv2.ex.class.php	/^		$response = $this->oAuthRequest($url, 'DELETE', $parameters);$/;"	v
+response	saetv2.ex.class.php	/^		$response = $this->oAuthRequest($url, 'GET', $parameters);$/;"	v
+response	saetv2.ex.class.php	/^		$response = $this->oAuthRequest($url, 'POST', $parameters, $multi );$/;"	v
+response	saetv2.ex.class.php	/^		$response = curl_exec($ci);$/;"	v
+school_list	saetv2.ex.class.php	/^	function school_list( $query )$/;"	f
+search_at_users	saetv2.ex.class.php	/^	function search_at_users( $q, $count = 10, $type=0, $range = 2)$/;"	f
+search_companies	saetv2.ex.class.php	/^	function search_companies( $q, $count = 10)$/;"	f
+search_schools	saetv2.ex.class.php	/^	function search_schools( $q,  $count = 10,  $type = 1)$/;"	f
+search_statuses	saetv2.ex.class.php	/^	function search_statuses( $q,  $count = 10)$/;"	f
+search_statuses_high	saetv2.ex.class.php	/^	function search_statuses_high( $query )$/;"	f
+search_users	saetv2.ex.class.php	/^	function search_users( $q,  $count = 10 )$/;"	f
+search_users_keywords	saetv2.ex.class.php	/^	function search_users_keywords( $query )$/;"	f
+send_comment	saetv2.ex.class.php	/^	function send_comment( $id , $comment , $comment_ori = 0)$/;"	f
+send_dm_by_id	saetv2.ex.class.php	/^	function send_dm_by_id( $uid, $text, $id = NULL )$/;"	f
+send_dm_by_name	saetv2.ex.class.php	/^	function send_dm_by_name( $screen_name, $text, $id = NULL )$/;"	f
+show_batch	saetv2.ex.class.php	/^    function show_batch( $ids )$/;"	f
+show_status	saetv2.ex.class.php	/^	function show_status( $id )$/;"	f
+show_user_by_id	saetv2.ex.class.php	/^	function show_user_by_id( $uid )$/;"	f
+show_user_by_name	saetv2.ex.class.php	/^	function show_user_by_name( $screen_name )$/;"	f
+sig	saetv2.ex.class.php	/^		$sig = self::base64decode($encoded_sig) ;$/;"	v
+ssl_verifypeer	saetv2.ex.class.php	/^	public $ssl_verifypeer = FALSE;$/;"	v
+suggestions_may_interested	saetv2.ex.class.php	/^	function suggestions_may_interested( $page = 1, $count = 10 )$/;"	f
+suggestions_users_by_status	saetv2.ex.class.php	/^	function suggestions_users_by_status( $content, $num = 10 )$/;"	f
+timeline_batch_by_id	saetv2.ex.class.php	/^	function timeline_batch_by_id( $uids, $page = 1, $count = 50, $feature = 0, $base_app = 0)$/;"	f
+timeline_batch_by_name	saetv2.ex.class.php	/^	function timeline_batch_by_name( $screen_name, $page = 1, $count = 50, $feature = 0, $base_app = 0)$/;"	f
+timeout	saetv2.ex.class.php	/^	public $timeout = 30;$/;"	v
+token	saetv2.ex.class.php	/^			$token = array();$/;"	v
+token	saetv2.ex.class.php	/^		$token = json_decode($response, true);$/;"	v
+trends_is_follow	saetv2.ex.class.php	/^	function trends_is_follow( $trend_name )$/;"	f
+unfollow_by_id	saetv2.ex.class.php	/^	function unfollow_by_id( $uid )$/;"	f
+unfollow_by_name	saetv2.ex.class.php	/^	function unfollow_by_name( $screen_name )$/;"	f
+unfollow_trends	saetv2.ex.class.php	/^	function unfollow_trends( $tid )$/;"	f
+update	saetv2.ex.class.php	/^	function update( $status, $lat = NULL, $long = NULL, $annotations = NULL )$/;"	f
+update_privacy	saetv2.ex.class.php	/^	function update_privacy( $privacy_settings )$/;"	f
+update_profile	saetv2.ex.class.php	/^	function update_profile( $profile )$/;"	f
+update_profile_image	saetv2.ex.class.php	/^	function update_profile_image( $image_path )$/;"	f
+update_remark	saetv2.ex.class.php	/^	function update_remark( $uid, $remark )$/;"	f
+upload	saetv2.ex.class.php	/^	function upload( $status, $pic_path, $lat = NULL, $long = NULL )$/;"	f
+upload_url_text	saetv2.ex.class.php	/^	function upload_url_text( $status,  $url )$/;"	f
+url	saetv2.ex.class.php	/^					$url = "{$url}?{$postfields}";$/;"	v
+url	saetv2.ex.class.php	/^				$url = ltrim( $value, '@' );$/;"	v
+url	saetv2.ex.class.php	/^			$url = "{$this->host}{$url}.{$this->format}";$/;"	v
+url	saetv2.ex.class.php	/^			$url = $url . '?' . http_build_query($parameters);$/;"	v
+url	saetv2.ex.class.php	/^		$this->url = $url;$/;"	v
+url	saetv2.ex.class.php	/^	public $url;$/;"	v
+user_info	saetv2.ex.class.php	/^			$user_info = $this->get_uid();$/;"	v
+user_timeline_by_id	saetv2.ex.class.php	/^	function user_timeline_by_id( $uid = NULL , $page = 1 , $count = 50 , $since_id = 0, $max_id = 0, $feature = 0, $trim_user = 0, $base_app = 0)$/;"	f
+user_timeline_by_name	saetv2.ex.class.php	/^	function user_timeline_by_name( $screen_name = NULL , $page = 1 , $count = 50 , $since_id = 0, $max_id = 0, $feature = 0, $trim_user = 0, $base_app = 0 )$/;"	f
+useragent	saetv2.ex.class.php	/^	public $useragent = 'Sae T OAuth2 v0.1';$/;"	v
+users_show_batch_by_id	saetv2.ex.class.php	/^	function users_show_batch_by_id( $uids )$/;"	f
+users_show_batch_by_name	saetv2.ex.class.php	/^	function users_show_batch_by_name( $screen_name )$/;"	f
+value	saetv2.ex.class.php	/^			$value = trim(substr($header, $i + 2));$/;"	v
+verify_nickname	saetv2.ex.class.php	/^	function verify_nickname( $nickname )$/;"	f
+weekly_trends	saetv2.ex.class.php	/^	function weekly_trends( $base_app = 0 )$/;"	f
